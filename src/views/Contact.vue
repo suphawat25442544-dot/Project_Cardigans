@@ -1,5 +1,5 @@
 <template lang="">
-    <div>
+    <div class="container">
         
         <h3>Contact Us</h3>
         <h2>Suphawat Saithong</h2>
