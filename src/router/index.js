@@ -16,7 +16,32 @@ const routes = [
     path: '/Contact',
     name: 'Contact',
     component: () => import('../views/Contact.vue')
-  }
+  },
+  {
+    path: '/Grade',
+    name: 'Grade',
+    component: () => import('../views/Grade.vue')
+  },
+  {
+    path: '/Golds',
+    name: 'Golds',
+    component: () => import('../views/Api_Golds.vue')
+  },
+  {
+    path: '/Product_Api',
+    name: 'Product_Api',
+    component: () => import('../views/Product_Api.vue')
+  },
+  {
+    path: '/Product_Table',
+    name: 'Product_Table',
+    component: () => import('../views/Product_Table.vue')
+  },
+  {
+    path: '/Users',
+    name: 'Users',
+    component: () => import('../views/Users.vue')
+  },
 
   
 ]
